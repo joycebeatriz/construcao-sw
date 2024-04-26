@@ -21,9 +21,9 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
   ### 3. Classe Login
 - **Arquivos**: 
 
-  [`Login.java`]()
-  [`LoginInvalidoException.java`]()
-  [`TesteLogin.java`]()
+  [`Login.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/Login.java)
+  [`LoginInvalidoException.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/LoginInvalidoException.java)
+  [`TesteLogin.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/TesteLogin.java)
 
 
 - **Descrição**: Permite a criação de uma instância com usuário e senha e contém um método para validar o login.
@@ -31,3 +31,18 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
   - `fazer_login(usuario, senha)`: Verifica se o usuário e senha fornecidos são válidos.
 - **Exceções Tratadas**:
   - `LoginInvalidoException`: Personalizada, lançada quando o usuário ou senha estão incorretos.
+
+
+  ### 4. Classe ContaBancaria
+- **Arquivos**: 
+  [`ContaBancaria.java`]()
+  [`SaldoInsuficienteException.java`]()
+  [`TesteContaBancaria.java`]()
+
+
+- **Descrição**: Gerencia um saldo e permite operações de depósito e saque, com tratamento de exceções para garantir que as operações sejam válidas.
+- **Métodos**:
+  - `depositar(valor)`: Adiciona um valor ao saldo.
+  - `sacar(valor)`: Deduz um valor do saldo.
+- **Exceções Tratadas**:
+  - `SaldoInsuficienteException`: Personalizada, lançada quando há tentativa de sacar um valor superior ao saldo disponível.
