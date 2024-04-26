@@ -5,7 +5,7 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
 ## Classes e Descrições
 
 ### 1. Classe Divisao
-- **Arquivo**: [DivisaoSegura.java](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/DivisaoSegura.java)
+- **Arquivo**: [`DivisaoSegura.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/DivisaoSegura.java)
 - **Descrição**: Esta classe aceita a entrada de dois números do usuário e realiza a divisão do primeiro pelo segundo, tratando exceções específicas.
 - **Exceções Tratadas**:
   - `ArithmeticException`: Captura tentativas de divisão por zero.
@@ -22,7 +22,9 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
 - **Arquivos**: 
 
   [`Login.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/Login.java)
+
   [`LoginInvalidoException.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/LoginInvalidoException.java)
+
   [`TesteLogin.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/TesteLogin.java)
 
 
@@ -35,9 +37,12 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
 
   ### 4. Classe ContaBancaria
 - **Arquivos**: 
-  [`ContaBancaria.java`]()
-  [`SaldoInsuficienteException.java`]()
-  [`TesteContaBancaria.java`]()
+
+  [`ContaBancaria.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/ContaBancaria.java)
+
+  [`SaldoInsuficienteException.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/SaldoInsuficienteException.java)
+
+  [`TesteContaBancaria.java`](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/TesteContaBancaria.java)
 
 
 - **Descrição**: Gerencia um saldo e permite operações de depósito e saque, com tratamento de exceções para garantir que as operações sejam válidas.
