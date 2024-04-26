@@ -5,8 +5,15 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
 ## Classes e Descrições
 
 ### 1. Classe Divisao
-- **Arquivo**: [DivisaoSegura.java](atividade08\DivisaoSegura.java)
+- **Arquivo**: [DivisaoSegura.java](https://github.com/joycebeatriz/construcao-sw/blob/main/atividade08/DivisaoSegura.java)
 - **Descrição**: Esta classe aceita a entrada de dois números do usuário e realiza a divisão do primeiro pelo segundo, tratando exceções específicas.
 - **Exceções Tratadas**:
   - `ArithmeticException`: Captura tentativas de divisão por zero.
   - `InputMismatchException`: Captura entradas que não são números inteiros.
+
+  ### 2. Classe VetorDeInteiros
+- **Arquivo**: [`VetorDeInteiros.java`]()
+- **Descrição**: Permite ao usuário preencher um vetor de 10 posições com números inteiros. O preenchimento para quando o usuário digita o número 0, que também é adicionado ao vetor.
+- **Exceções Tratadas**:
+  - `ArrayIndexOutOfBoundsException`: Captura quando mais de 10 números são inseridos.
+  - `InputMismatchException`: Captura quando a entrada não é um número inteiro.
