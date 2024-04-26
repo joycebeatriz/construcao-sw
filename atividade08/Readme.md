@@ -5,7 +5,7 @@ Esta atividade consiste em várias classes Java que demonstram o tratamento de e
 ## Classes e Descrições
 
 ### 1. Classe Divisao
-- **Arquivo**: [DivisaoSegura.java](atividade08/DivisaoSegura.java)
+- **Arquivo**: [DivisaoSegura.java](atividade08\DivisaoSegura.java)
 - **Descrição**: Esta classe aceita a entrada de dois números do usuário e realiza a divisão do primeiro pelo segundo, tratando exceções específicas.
 - **Exceções Tratadas**:
   - `ArithmeticException`: Captura tentativas de divisão por zero.
